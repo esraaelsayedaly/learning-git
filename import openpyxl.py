@@ -1,8 +1,4 @@
-import openpyxl
-from openpyxl import Workbook
-from openpyxl.styles import PatternFill
-from openpyxl.styles import colors
-from openpyxl.styles import Font, Color
+
 
 wb1 = openpyxl.load_workbook('sheet1.xlsx')
 sheet1 = wb1.worksheets[0]
